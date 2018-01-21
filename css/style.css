@@ -1,0 +1,163 @@
+  .cryptocoin_wrap img{
+    padding:10px !important;
+      height:120px;
+      width:120px;
+      float:left;
+      margin:0 auto;
+  }
+  .tile_stats_count{
+    text-align:center !important;
+  }
+
+  .cryptocoin{
+    margin:0 auto;
+  }
+
+  .count{
+    font-size:30px !important;
+  }
+
+  .progress{
+    background-color: white !important;
+  }
+
+
+  table{
+    text-align:center;
+  }
+
+  table th{
+    text-align:center !important;
+  }
+
+  .chartbox{
+    display:flex;
+  
+  flex-wrap:wrap;
+  justify-content:space-around;
+  }
+
+  .chartbox:nth-of-type(odd){
+    padding-left:0 !important;
+    padding-right:5px !important;
+  }
+  .chartbox .contentbox{
+    float:left;
+
+  }
+  .chartbox .contentbox h3{text-transform: capitalize;font-size:18px;}
+
+   img{
+    height:48px;
+    width:48px;
+    float:left;
+  }
+
+
+.chartbox .contentbox h1{font-weight: bold;font-size:20px;}
+
+.top_nav .navbar-right{width:auto !important;}
+
+.topnav_crypto{
+  text-align:center;
+  line-height:58px;
+}
+
+
+/*temp*/
+
+.card{
+
+  padding:0 !important;
+
+    margin: 1.5em;
+
+    border: 1px solid #CAD0D2;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 2px 6px 25px rgba(0, 0, 0, 0.1);
+    transition: all .3s ease;
+    position: relative;
+    background-color:white;
+}
+
+.card_desc {
+
+
+ 
+    align-items: center;
+    padding: 15px 0;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.card_price{
+      text-align: center;
+    color: #57727C;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 5px 15px;
+    border-top: 1px solid #D7DBDD;
+    background-color: #EEF3F5;
+}
+.card_price small{
+  margin-left:10px;
+}
+
+.card_desc_text{
+  text-transform: uppercase;
+      color: #57727C;
+    font-size: 14px;
+    text-align: center;
+
+    margin-bottom: 0.75em;
+}
+
+.card img{
+  margin-left:20px;
+  height:32px;
+  width:32px;
+  /*margin:0;*/
+}
+
+.card_wrapper{
+      margin: 0 auto;
+    width:100%;
+}
+
+.cryptocoin_wrap{
+  margin-top:20px;
+}
+
+.cryptocoin_wrap .x_panel, .x_title{
+  margin-bottom:0px !important;
+}
+
+.site_title{
+  background-color:#11263B;
+}
+
+.navbar{
+  margin-bottom:10px !important;
+}
+
+.x_panel, .x_title{
+  border-radius: 5px;
+}
+
+
+
+/* Paste this css to your style sheet file or under head tag */
+/* This only works with JavaScript, 
+if it's not present, don't show loader */
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: url(../images/loader-128x/Preloader_1.gif) center no-repeat #fff;
+}
